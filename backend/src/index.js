@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const routes = require("./routes");
 
 const server = express();
@@ -6,8 +7,8 @@ const server = express();
 // Informa o express que iremos utilizar JSON
 server.use(express.json());
 server.use(routes);
-
-server.listen(8080);
+server.use(cors());
+server.listen(3333);
 
 /**
  * Rota / Recurso
