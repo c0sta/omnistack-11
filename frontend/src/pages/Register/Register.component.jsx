@@ -17,7 +17,7 @@ export const Register = props => {
             os casos da sua ONG.
           </p>
 
-          <Link to="/register" className="back-link">
+          <Link to="/" className="back-link">
             <FiArrowLeft size={16} color="#E02041" />
             Não tenho cadastro
           </Link>
