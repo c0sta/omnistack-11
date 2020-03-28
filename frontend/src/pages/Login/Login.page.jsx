@@ -36,7 +36,7 @@ export const Login = props => {
           />
           <button className="button" type="submit">
             Entrar
-          </button>
+            </button>
 
           <Link to="/register" className="back-link">
             <FiLogIn size={16} color="#E02041" />

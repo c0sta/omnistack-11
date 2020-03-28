@@ -5,4 +5,4 @@ const app = require("./app");
 // Informa o express que iremos utilizar JSON
 app.use(express.json());
 
-app.listen(3333);
+app.listen(5432);

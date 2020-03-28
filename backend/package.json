@@ -4,12 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build:deploy": "cross-env NODE_ENV=production webpack",
     "start": "nodemon ./src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "knex": "^0.20.13",
+    "morgan": "^1.10.0",
+    "pg": "^7.18.2",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
